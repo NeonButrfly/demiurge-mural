@@ -91,12 +91,14 @@ def write_binary_stl(path: Path, triangles: np.ndarray, name: str) -> None:
         handle.write(record.tobytes())
 
 
-def main() -> None:
-    source = Image.open(SOURCE).convert("L")
-    if source.size != (2048, 2048):
-        raise ValueError(f"Expected 2048x2048 source, got {source.size}")
-    shared_gray = np.asarray(source.resize((1025, 1025), Image.Resampling.LANCZOS), dtype=np.float32)
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+def generate(source: Path = SOURCE, output_dir: Path = OUTPUT_DIR, file_prefix: str = "demiurge_bas_relief_panel_") -> None:
+    source = Path(source)
+    output_dir = Path(output_dir)
+    source_image = Image.open(source).convert("L")
+    if source_image.size != (2048, 2048):
+        raise ValueError(f"Expected 2048x2048 source, got {source_image.size}")
+    shared_gray = np.asarray(source_image.resize((1025, 1025), Image.Resampling.LANCZOS), dtype=np.float32)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     panels = {
         "01_upper_left": (0, 0),
@@ -139,7 +141,7 @@ def main() -> None:
             height[coords >= PANEL_MM - OUTER_BORDER_MM, :] = BASE_MM
 
         triangles = triangles_for_panel(height)
-        output = OUTPUT_DIR / f"demiurge_bas_relief_panel_{name}.stl"
+        output = output_dir / f"{file_prefix}{name}.stl"
         write_binary_stl(output, triangles, name)
         manifest["panels"][name] = {
             "file": str(output.relative_to(ROOT)),
@@ -149,7 +151,13 @@ def main() -> None:
             "source_region": [x0, y0, x0 + PANEL_PX, y0 + PANEL_PX],
         }
 
-    (OUTPUT_DIR / "relief_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    manifest["source"] = str(source.relative_to(ROOT))
+    manifest["output_directory"] = str(output_dir.relative_to(ROOT))
+    (output_dir / "relief_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    generate()
 
 
 if __name__ == "__main__":
