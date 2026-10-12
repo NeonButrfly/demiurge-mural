@@ -12,6 +12,8 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `outputs/single/demiurge_single_800mm_architecture_depth_enhanced_grayscale.png` — non-destructive variant with stronger side-architecture and circular-element depth cues.
 - `outputs/single/demiurge_single_800mm_depthcarve_blended_grayscale.png` — depth-map-blended variant using the tracked DepthCarve reference.
 - `assets/references/depthcarve-depth-map-8bit_1.png` — supplied 8-bit depth-map input.
+- `outputs/relief/` — four binary STL bas-relief panels and a generation manifest. Each panel is 400 × 400 mm; together they form 800 × 800 mm.
+- `scripts/validate_bas_relief.py` — binary-STL bounds and closed-manifold validation.
 - `outputs/previews/demiurge_four_panel_combined_preview.png` — assembled visual check of the four panels.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.
