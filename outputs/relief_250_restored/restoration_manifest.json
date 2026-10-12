@@ -1,0 +1,58 @@
+{
+  "source_dimensions": "250 x 250 mm supplied STL panels",
+  "geometry_policy": "preserve XY coordinates, triangle order, topology, and each input panel Z envelope; local Z-only correction for circles",
+  "panels": {
+    "1": {
+      "input": "panel_1_upper_left.stl",
+      "output": "panel_1_upper_left_restored_250mm.stl",
+      "triangles": 662246,
+      "changed_vertices": 907199,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        249.90843200683594,
+        250.0,
+        25.11750030517578
+      ],
+      "byte_identical": false,
+      "input_sha256": "fd423ea3e289df68c69005bf5223dc4055dcb11f4484d5fca8d4897335821b1f",
+      "output_sha256": "9b682ee4ee61b082d6213afb6bd18d1ab00b820ee5d9b6218f02a57fa1c66566"
+    },
+    "2": {
+      "input": "panel_2_upper_right.stl",
+      "output": "panel_2_upper_right_restored_250mm.stl",
+      "triangles": 590760,
+      "changed_vertices": 662216,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        249.90843200683594,
+        250.0,
+        23.56100082397461
+      ],
+      "byte_identical": false,
+      "input_sha256": "6c9dd113907fd53947397742dd8d796d6f38b27ab5b695f3351f35ef2d4ad704",
+      "output_sha256": "e12b00d32de81f0f27365d15ab7ea83d217f97027084ac9b4e63aeee81609205"
+    },
+    "3": {
+      "input": "panel_3_lower_left.stl",
+      "output": "panel_3_lower_left_restored_250mm.stl",
+      "byte_identical": true,
+      "input_sha256": "67b591e7efa68599d1cf0456957c658f6e1d01c43c0beb602cb93e9586e81348",
+      "output_sha256": "67b591e7efa68599d1cf0456957c658f6e1d01c43c0beb602cb93e9586e81348"
+    },
+    "4": {
+      "input": "panel_4_lower_right.stl",
+      "output": "panel_4_lower_right_restored_250mm.stl",
+      "byte_identical": true,
+      "input_sha256": "2dba3063a04bcbfbdaa5665d9073b3551d182c6af357a3be3081942b7e99bf28",
+      "output_sha256": "2dba3063a04bcbfbdaa5665d9073b3551d182c6af357a3be3081942b7e99bf28"
+    }
+  }
+}

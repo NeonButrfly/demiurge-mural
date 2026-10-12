@@ -15,9 +15,11 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `assets/references/depthcarve-depth-map-8bit_1.png` — supplied 8-bit depth-map input.
 - `outputs/relief/` — four binary STL bas-relief panels and a generation manifest. Each panel is 400 × 400 mm; together they form 800 × 800 mm, with a calibrated maximum height of 25.1175 mm.
 - `outputs/relief_restored/` — four regenerated 400 × 400 mm STL panels based on the circular-region restoration variant.
+- `outputs/relief_250_restored/` — geometry-preserving restoration outputs based directly on the supplied 250 × 250 mm Desktop STLs; panels 3 and 4 are byte-identical copies.
 - `scripts/validate_bas_relief.py` — binary-STL bounds and closed-manifold validation.
 - `assets/references/panel_1_upper_left_example.stl` — supplied example STL used to calibrate the depth scale.
 - `outputs/previews/demiurge_four_panel_combined_preview.png` — assembled visual check of the four panels.
 - `scripts/restore_circular_regions.py` — deterministic restoration and regenerated-panel workflow for issue #7.
+- `scripts/restore_250mm_panel_circles.py` — local-Z-only restoration workflow for issue #8; it preserves the supplied 250 mm XY geometry and topology.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.
