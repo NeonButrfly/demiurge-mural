@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "assets" / "source" / "demiurge_full_four_panel_source_2048x2048_grayscale.png"
 PANEL_DIR = ROOT / "outputs" / "panels"
 PREVIEW_DIR = ROOT / "outputs" / "previews"
+SINGLE_DIR = ROOT / "outputs" / "single"
 
 PIXELS_PER_MM = 2.56
 PANEL_PX = 1024
@@ -22,6 +23,14 @@ def main() -> None:
 
     PANEL_DIR.mkdir(parents=True, exist_ok=True)
     PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
+    SINGLE_DIR.mkdir(parents=True, exist_ok=True)
+
+    single_size = PANEL_PX * 2
+    single_interior_size = single_size - 2 * BORDER_PX
+    single_interior = source.resize((single_interior_size, single_interior_size), Image.Resampling.LANCZOS)
+    single = Image.new("L", (single_size, single_size), LOW_Z)
+    single.paste(single_interior, (BORDER_PX, BORDER_PX))
+    single.save(SINGLE_DIR / "demiurge_single_800mm_grayscale.png", format="PNG", dpi=(PIXELS_PER_MM * 25.4, PIXELS_PER_MM * 25.4))
 
     positions = {
         "01_upper_left": (0, 0),
@@ -51,6 +60,11 @@ def main() -> None:
         assert all(pixel == LOW_Z for pixel in list(panel.crop((0, PANEL_PX - BORDER_PX, PANEL_PX, PANEL_PX)).getdata()))
         assert all(pixel == LOW_Z for pixel in list(panel.crop((0, 0, BORDER_PX, PANEL_PX)).getdata()))
         assert all(pixel == LOW_Z for pixel in list(panel.crop((PANEL_PX - BORDER_PX, 0, PANEL_PX, PANEL_PX)).getdata()))
+    assert single.mode == "L" and single.size == (PANEL_PX * 2, PANEL_PX * 2)
+    assert all(pixel == LOW_Z for pixel in list(single.crop((0, 0, PANEL_PX * 2, BORDER_PX)).getdata()))
+    assert all(pixel == LOW_Z for pixel in list(single.crop((0, PANEL_PX * 2 - BORDER_PX, PANEL_PX * 2, PANEL_PX * 2)).getdata()))
+    assert all(pixel == LOW_Z for pixel in list(single.crop((0, 0, BORDER_PX, PANEL_PX * 2)).getdata()))
+    assert all(pixel == LOW_Z for pixel in list(single.crop((PANEL_PX * 2 - BORDER_PX, 0, PANEL_PX * 2, PANEL_PX * 2)).getdata()))
 
 
 if __name__ == "__main__":
