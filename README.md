@@ -21,5 +21,10 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `outputs/previews/demiurge_four_panel_combined_preview.png` — assembled visual check of the four panels.
 - `scripts/restore_circular_regions.py` — deterministic restoration and regenerated-panel workflow for issue #7.
 - `scripts/restore_250mm_panel_circles.py` — local-Z-only restoration workflow for issue #8; it preserves the supplied 250 mm XY geometry and topology.
+- `assets/source/demiurge_full_four_panel_source_2048x2048.png` — unchanged color source supplied for the quarter-panel seam repair in issue #9.
+- `outputs/seam_repair/demiurge_full_four_panel_source_2048x2048_seams_repaired.png` — repaired 2048 × 2048 color master. Only the eight-pixel-wide horizontal and vertical center bands differ from the supplied source.
+- `outputs/seam_repair/panels/` — four 1024 × 1024 crops exported from the repaired color master.
+- `outputs/seam_repair/seam_repair_manifest.json` and `outputs/seam_repair/seam_repair_changed_pixel_mask.png` — reproducible repair settings, before/after seam statistics, and the exact changed-pixel mask for issue #9.
+- `scripts/repair_quarter_panel_seams.py` — deterministic narrow-band seam bridge used for issue #9.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.
