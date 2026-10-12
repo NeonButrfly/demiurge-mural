@@ -1,5 +1,6 @@
 {
   "source": "outputs\\single\\demiurge_single_800mm_architecture_depth_enhanced_grayscale.png",
+  "reference_example": "assets/references/panel_1_upper_left_example.stl",
   "panel_size_mm": [
     400.0,
     400.0
@@ -9,8 +10,10 @@
     800.0
   ],
   "base_thickness_mm": 2.5,
-  "maximum_relief_above_base_mm": 7.5,
-  "maximum_total_height_mm": 10.0,
+  "maximum_relief_above_base_mm": 22.6175,
+  "maximum_total_height_mm": 25.1175,
+  "reference_example_max_z_mm": 25.1175,
+  "height_gamma": 0.3,
   "outer_low_z_border_mm": 5.0,
   "grid_vertices_per_axis": 513,
   "panels": {
@@ -18,7 +21,7 @@
       "file": "outputs\\relief\\demiurge_bas_relief_panel_01_upper_left.stl",
       "triangle_count": 1052672,
       "z_min_mm": 0.0,
-      "z_max_mm": 10.0,
+      "z_max_mm": 25.11750030517578,
       "source_region": [
         0,
         0,
@@ -30,7 +33,7 @@
       "file": "outputs\\relief\\demiurge_bas_relief_panel_02_upper_right.stl",
       "triangle_count": 1052672,
       "z_min_mm": 0.0,
-      "z_max_mm": 10.0,
+      "z_max_mm": 25.11750030517578,
       "source_region": [
         1024,
         0,
@@ -42,7 +45,7 @@
       "file": "outputs\\relief\\demiurge_bas_relief_panel_03_lower_left.stl",
       "triangle_count": 1052672,
       "z_min_mm": 0.0,
-      "z_max_mm": 10.0,
+      "z_max_mm": 25.11750030517578,
       "source_region": [
         0,
         1024,
@@ -54,7 +57,7 @@
       "file": "outputs\\relief\\demiurge_bas_relief_panel_04_lower_right.stl",
       "triangle_count": 1052672,
       "z_min_mm": 0.0,
-      "z_max_mm": 10.0,
+      "z_max_mm": 25.11750030517578,
       "source_region": [
         1024,
         1024,

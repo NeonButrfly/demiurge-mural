@@ -8,6 +8,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 RELIEF_DIR = ROOT / "outputs" / "relief"
+EXPECTED_MAX_Z = 25.1175
 STL_DTYPE = np.dtype([
     ("normal", "<f4", (3,)),
     ("v0", "<f4", (3,)),
@@ -33,7 +34,7 @@ def validate(path: Path) -> tuple[int, tuple[float, ...], int]:
         raise AssertionError(f"{path.name}: unexpected minimum bounds {bounds_min}")
     if not np.allclose(bounds_max[:2], [400.0, 400.0], atol=1e-4):
         raise AssertionError(f"{path.name}: unexpected XY maximum bounds {bounds_max}")
-    if not (9.99 <= bounds_max[2] <= 10.01):
+    if not (EXPECTED_MAX_Z - 0.01 <= bounds_max[2] <= EXPECTED_MAX_Z + 0.01):
         raise AssertionError(f"{path.name}: unexpected Z maximum {bounds_max[2]}")
 
     # Quantize coordinates to 0.01 micrometre to make shared STL vertices

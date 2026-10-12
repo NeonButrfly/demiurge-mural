@@ -13,8 +13,9 @@ Convert the supplied continuous grayscale heightmap into four separate 400 × 40
 ## Production assumptions
 
 - 2.5 mm solid base
-- Up to 7.5 mm raised relief above the base
-- 10 mm maximum total panel thickness
+- Up to 22.6175 mm raised relief above the base
+- 25.1175 mm maximum total panel thickness, calibrated from the supplied example STL
+- Gamma 0.30 grayscale lift so dark but meaningful details remain raised
 - 5 mm low-Z border on the outside perimeter only
 - Shared source samples at internal seams so no artificial seam border is added
 

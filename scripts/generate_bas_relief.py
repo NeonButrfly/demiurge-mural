@@ -16,7 +16,9 @@ PANEL_PX = 1024
 GRID = 513  # Shared seam vertices: 512 intervals across each 400 mm panel.
 PANEL_MM = 400.0
 BASE_MM = 2.5
-RELIEF_MM = 7.5
+REFERENCE_MAX_Z_MM = 25.1175
+RELIEF_MM = REFERENCE_MAX_Z_MM - BASE_MM
+HEIGHT_GAMMA = 0.30
 LOW_Z = 16
 OUTER_BORDER_MM = 5.0
 
@@ -104,11 +106,14 @@ def main() -> None:
     }
     manifest = {
         "source": str(SOURCE.relative_to(ROOT)),
+        "reference_example": "assets/references/panel_1_upper_left_example.stl",
         "panel_size_mm": [PANEL_MM, PANEL_MM],
         "overall_size_mm": [800.0, 800.0],
         "base_thickness_mm": BASE_MM,
         "maximum_relief_above_base_mm": RELIEF_MM,
         "maximum_total_height_mm": BASE_MM + RELIEF_MM,
+        "reference_example_max_z_mm": REFERENCE_MAX_Z_MM,
+        "height_gamma": HEIGHT_GAMMA,
         "outer_low_z_border_mm": OUTER_BORDER_MM,
         "grid_vertices_per_axis": GRID,
         "panels": {},
@@ -118,7 +123,8 @@ def main() -> None:
         grid_x = 0 if x0 == 0 else 512
         grid_y = 0 if y0 == 0 else 512
         gray = shared_gray[grid_y:grid_y + GRID, grid_x:grid_x + GRID]
-        height = BASE_MM + (gray / 255.0) * RELIEF_MM
+        normalized = np.clip(gray / 255.0, 0.0, 1.0)
+        height = BASE_MM + np.power(normalized, HEIGHT_GAMMA) * RELIEF_MM
 
         # Only the outside edges of the complete 800 mm mural are forced to the
         # low-Z base. Internal panel seams remain continuous artwork surfaces.
