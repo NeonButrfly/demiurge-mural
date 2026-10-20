@@ -26,5 +26,12 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `outputs/seam_repair/panels/` — four 1024 × 1024 crops exported from the repaired color master.
 - `outputs/seam_repair/seam_repair_manifest.json` and `outputs/seam_repair/seam_repair_changed_pixel_mask.png` — reproducible repair settings, before/after seam statistics, and the exact changed-pixel mask for issue #9.
 - `scripts/repair_quarter_panel_seams.py` — deterministic narrow-band seam bridge used for issue #9.
+- `assets/source/Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png` — supplied grayscale anatomy-cleanup and tonal reference for issue #10.
+- `assets/source/demiurge_color_cybernetic_reference.png` — supplied color reference used as the authoritative source for bodies, cybernetics, architecture, and fine detail in issue #10.
+- `outputs/grayscale_cybernetic_composite/demiurge_grayscale_cybernetic_celestial_master_2048.png` — neutral-grayscale 2048 × 2048 composite retaining the color mural's dense cybernetic composition, the grayscale reference's tonal character, and the preserved star field/eclipsed celestial elements.
+- `outputs/grayscale_cybernetic_composite/demiurge_grayscale_cybernetic_composite_base.png` — deterministic pre-model composite retained for comparison.
+- `outputs/grayscale_cybernetic_composite/local_sd_turbo_harmonization_512.png` — raw local CPU SD-Turbo harmonization pass; diagnostic only, not the final master.
+- `outputs/grayscale_cybernetic_composite/composite_manifest.json` — source hashes, model/prompt/seed, grayscale checks, composition policy, and validation limits for issue #10.
+- `scripts/build_grayscale_cybernetic_composite.py` — reproducible deterministic composite plus conservative local-model harmonization workflow for issue #10.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.

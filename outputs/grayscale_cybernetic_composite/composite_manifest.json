@@ -1,0 +1,38 @@
+{
+  "issue": 10,
+  "grayscale_reference": "assets\\source\\Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png",
+  "color_reference": "assets\\source\\demiurge_color_cybernetic_reference.png",
+  "grayscale_reference_sha256": "e3e9f0d8d612f96c10bcb11614a31db9cc5791f41e3fe3e258f88dd5bc9f5c0e",
+  "color_reference_sha256": "334e4480b89b29c4d3851eea6c28125a44612ad408e466996c4ff30b5fe8f18a",
+  "output": "outputs\\grayscale_cybernetic_composite\\demiurge_grayscale_cybernetic_celestial_master_2048.png",
+  "output_sha256": "5f782206fe461654e277f1eb69a86c9cf43d49abc612e663e2cdf01f52cc140b",
+  "dimensions_px": [
+    2048,
+    2048
+  ],
+  "mode": "L",
+  "neutral_grayscale_rgb_channels_identical": true,
+  "grayscale_range": [
+    0,
+    255
+  ],
+  "grayscale_standard_deviation": 61.12139822447275,
+  "local_model": "stabilityai/sd-turbo",
+  "local_model_device": "cpu",
+  "local_model_seed": 241019,
+  "local_model_seconds_including_load": 71.06824541091919,
+  "local_prompt": "neutral grayscale gothic bas-relief mural, dense coherent cybernetic figures, integrated biomechanical limbs and cables, layered bodies, skull mechanisms, cathedral architecture, polished silver and black carved metal, dramatic relief lighting, anatomically coherent, continuous composition, extremely detailed",
+  "composition_policy": {
+    "bodies_cybernetics_architecture": "color reference authoritative",
+    "tonal_distribution": "grayscale reference histogram blended 60 percent",
+    "star_field": "grayscale reference inserted inside color-reference eclipse",
+    "eclipse_ring_and_surround": "color reference preserved",
+    "high_frequency_detail": "deterministic 2048px base restored after local diffusion",
+    "local_harmonization_influence": "5.5 percent low-frequency delta"
+  },
+  "unverified": [
+    "relief conversion",
+    "slicer preview",
+    "physical print"
+  ]
+}
