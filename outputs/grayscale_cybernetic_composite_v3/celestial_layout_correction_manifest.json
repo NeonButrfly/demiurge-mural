@@ -1,0 +1,61 @@
+{
+  "issue": 11,
+  "acceptance_correction": "upper-left eclipse and upper-right star field per supplied grayscale reference",
+  "anatomy_master": "outputs\\grayscale_cybernetic_composite_v2\\demiurge_grayscale_cybernetic_celestial_anatomy_master_2048.png",
+  "celestial_reference": "assets\\source\\celestial_layout_reference_1131.png",
+  "anatomy_master_sha256": "6dfbbf381d12b507d20b6fba3fc8a9ffbf9ec1d328c70c35cc94c90986824192",
+  "celestial_reference_sha256": "94a78dfdfc4c970efb196acc5d756e7e31ae8d055d40a7abe1e094a57998166b",
+  "output": "outputs\\grayscale_cybernetic_composite_v3\\demiurge_grayscale_cybernetic_anatomy_corrected_celestials_2048.png",
+  "output_sha256": "e24c4cd44a535c4e81a7826ef0729d09a7c58c4eb9b0279ea73ce62d43221d0b",
+  "dimensions_px": [
+    2048,
+    2048
+  ],
+  "mode": "L",
+  "neutral_grayscale_rgb_channels_identical": true,
+  "regions": [
+    {
+      "name": "upper_left_eclipse",
+      "source_center": [
+        135,
+        164
+      ],
+      "source_radius": 64,
+      "destination_center": [
+        292,
+        373
+      ],
+      "destination_radius": 122,
+      "feather": 8
+    },
+    {
+      "name": "upper_right_star_field",
+      "source_center": [
+        1037,
+        108
+      ],
+      "source_radius": 94,
+      "destination_center": [
+        1813,
+        224
+      ],
+      "destination_radius": 112,
+      "feather": 8
+    }
+  ],
+  "changed_pixels": 84908,
+  "changed_pixels_outside_documented_mask": 0,
+  "mean_absolute_difference_from_anatomy_master": 1.3223345279693604,
+  "maximum_absolute_difference_from_anatomy_master": 255,
+  "preservation_policy": {
+    "anatomy_pass": "preserved exactly outside the two celestial masks",
+    "architecture_bodies_cybernetics": "preserved exactly outside the two celestial masks",
+    "upper_left": "reference eclipse transplanted with feathered circular mask",
+    "upper_right": "reference star field transplanted with feathered circular mask"
+  },
+  "unverified": [
+    "relief conversion",
+    "slicer preview",
+    "physical print"
+  ]
+}

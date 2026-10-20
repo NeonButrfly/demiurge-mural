@@ -33,10 +33,14 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `outputs/grayscale_cybernetic_composite/local_sd_turbo_harmonization_512.png` — raw local CPU SD-Turbo harmonization pass; diagnostic only, not the final master.
 - `outputs/grayscale_cybernetic_composite/composite_manifest.json` — source hashes, model/prompt/seed, grayscale checks, composition policy, and validation limits for issue #10.
 - `scripts/build_grayscale_cybernetic_composite.py` — reproducible deterministic composite plus conservative local-model harmonization workflow for issue #10.
-- `outputs/grayscale_cybernetic_composite_v2/demiurge_grayscale_cybernetic_celestial_anatomy_master_2048.png` — current neutral-grayscale master for issue #11. It keeps the upper-left star field, restores the separate upper-right eclipse, and applies a face-protected local anatomy pass to three dense cybernetic limb junctions.
+- `outputs/grayscale_cybernetic_composite_v2/demiurge_grayscale_cybernetic_celestial_anatomy_master_2048.png` — superseded intermediate issue #11 master containing the accepted face-protected anatomy pass but the wrong celestial orientation.
 - `outputs/grayscale_cybernetic_composite_v2/anatomy_repair_mask.png` and `eclipse_restoration_mask.png` — exact documented edit regions for the current master; pixels outside their union remain unchanged from the issue #10 master.
 - `outputs/grayscale_cybernetic_composite_v2/*_before.png`, `*_model_raw.png`, `*_after.png`, and `*_mask.png` — per-region anatomy audit artifacts showing the source crop, raw local-model proposal, accepted conservative blend, and feathered mask.
 - `outputs/grayscale_cybernetic_composite_v2/celestial_anatomy_manifest.json` — source hashes, local model settings, seeds, repair boxes, face exclusions, grayscale checks, and pixel-difference validation for issue #11.
 - `scripts/build_celestial_anatomy_v2.py` — reproducible eclipse restoration and masked local CPU anatomy workflow for issue #11.
+- `assets/source/celestial_layout_reference_1131.png` — user-supplied authoritative reference establishing a cloudy rimmed eclipse at upper left and a crisp circular star field at upper right.
+- `outputs/grayscale_cybernetic_composite_v3/demiurge_grayscale_cybernetic_anatomy_corrected_celestials_2048.png` — current issue #11 master. It preserves the v2 anatomy work and replaces only the two celestial circles with the correctly oriented reference motifs.
+- `outputs/grayscale_cybernetic_composite_v3/celestial_layout_correction_mask.png` and `celestial_layout_correction_manifest.json` — exact edit containment, source hashes, circle mappings, and validation statistics for the celestial correction.
+- `scripts/correct_celestial_layout.py` — deterministic reference transplant used to create the current master without regenerating the mural.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.

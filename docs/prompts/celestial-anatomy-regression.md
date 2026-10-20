@@ -10,9 +10,11 @@ Milestone: [Demiurge 800mm Bas-Relief](https://github.com/NeonButrfly/demiurge-m
 
 “lost starfield and eclipse also do a anatomy pass”
 
+Acceptance correction: “the starfield and eclipse should look like in this image”
+
 ## Interpreted requirement
 
-Keep the issue #10 mural's neutral grayscale character, dense bodies, cybernetics, architecture, wings, and fine relief detail. Restore two distinct celestial features from the authoritative color composition: the bright star field at upper left and the dark eclipse with a luminous corona at upper right. Repair ambiguous body and cybernetic-limb transitions without redrawing the whole mural or changing faces.
+Keep the issue #10 mural's neutral grayscale character, dense bodies, cybernetics, architecture, wings, and fine relief detail. Repair ambiguous body and cybernetic-limb transitions without redrawing the whole mural or changing faces. The supplied 1131 × 1131 grayscale image is authoritative for the celestial appearance and orientation: a cloudy dark eclipse with a bright soft rim at upper left, and a crisp star field inside a metallic circular rim at upper right.
 
 ## Affected systems
 
@@ -24,12 +26,13 @@ Keep the issue #10 mural's neutral grayscale character, dense bodies, cybernetic
 ## Execution
 
 - Preserved the issue #10 2048 × 2048 grayscale master as the full-frame base.
-- Kept the upper-left star field unchanged.
-- Restored the upper-right eclipse from the color reference's luminance after matching the grayscale reference's tone distribution.
+- The original v2 execution placed the star field at upper left and the eclipse at upper right. The user rejected that orientation.
 - Ran the cached `stabilityai/sd-turbo` model locally on CPU for three 512 × 512 anatomy crops.
 - Blended each model proposal conservatively through a feathered polygon mask.
 - Applied separate face-protection exclusions after mask feathering so heads retain a zero-edit core.
 - Preserved every pixel outside the union of the eclipse and anatomy masks.
+- In the accepted v3 correction, preserved the entire v2 anatomy master and transplanted only the two celestial circles from `celestial_layout_reference_1131.png`.
+- Mapped the reference eclipse to the upper-left circle and the reference star field to the upper-right circle through separate feathered masks.
 
 ## Local anatomy prompt
 
@@ -37,7 +40,7 @@ Keep the issue #10 mural's neutral grayscale character, dense bodies, cybernetic
 
 ## Expected behavior
 
-- The two celestial objects are visibly different and remain in their original upper-left and upper-right positions.
+- The cloudy rimmed eclipse is at upper left and the crisp circular star field is at upper right, matching the supplied reference.
 - The anatomy pass is local and improves limb ownership and attached cybernetic joints without replacing faces or the surrounding mural.
 - The output remains a 2048 × 2048 neutral grayscale relief source.
 
