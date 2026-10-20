@@ -1,0 +1,130 @@
+{
+  "issue": 11,
+  "prior_composite": "outputs\\grayscale_cybernetic_composite\\demiurge_grayscale_cybernetic_celestial_master_2048.png",
+  "grayscale_reference": "assets\\source\\Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png",
+  "color_reference": "assets\\source\\demiurge_color_cybernetic_reference.png",
+  "prior_composite_sha256": "5f782206fe461654e277f1eb69a86c9cf43d49abc612e663e2cdf01f52cc140b",
+  "grayscale_reference_sha256": "e3e9f0d8d612f96c10bcb11614a31db9cc5791f41e3fe3e258f88dd5bc9f5c0e",
+  "color_reference_sha256": "334e4480b89b29c4d3851eea6c28125a44612ad408e466996c4ff30b5fe8f18a",
+  "output": "outputs\\grayscale_cybernetic_composite_v2\\demiurge_grayscale_cybernetic_celestial_anatomy_master_2048.png",
+  "output_sha256": "6dfbbf381d12b507d20b6fba3fc8a9ffbf9ec1d328c70c35cc94c90986824192",
+  "dimensions_px": [
+    2048,
+    2048
+  ],
+  "mode": "L",
+  "neutral_grayscale_rgb_channels_identical": true,
+  "grayscale_range": [
+    0,
+    255
+  ],
+  "changed_pixels": 322157,
+  "changed_pixels_outside_documented_masks": 0,
+  "mean_absolute_difference_from_prior": 0.7981183528900146,
+  "maximum_absolute_difference_from_prior": 252,
+  "local_model": "stabilityai/sd-turbo",
+  "local_model_device": "cpu",
+  "local_model_prompt": "neutral grayscale gothic bas-relief, coherent sculptural anatomy, each arm connected from shoulder through elbow and wrist to one hand, biomechanical prosthetics attached at natural joints, no floating hands, no duplicated limbs, preserve composition, crisp cybernetic detail",
+  "local_model_total_seconds_including_load": 80.16441202163696,
+  "anatomy_regions": [
+    {
+      "name": "central_cybernetic_arm_chain",
+      "box": [
+        650,
+        610,
+        1162,
+        1122
+      ],
+      "strength": 0.4,
+      "blend": 0.34,
+      "seed": 241020,
+      "face_exclusions": [
+        [
+          205,
+          418,
+          334,
+          512
+        ]
+      ],
+      "seconds": 19.71051335334778
+    },
+    {
+      "name": "middle_limb_ownership",
+      "box": [
+        690,
+        900,
+        1202,
+        1412
+      ],
+      "strength": 0.42,
+      "blend": 0.36,
+      "seed": 241121,
+      "face_exclusions": [
+        [
+          103,
+          91,
+          222,
+          222
+        ],
+        [
+          296,
+          268,
+          425,
+          396
+        ],
+        [
+          328,
+          399,
+          455,
+          512
+        ]
+      ],
+      "seconds": 21.850908994674683
+    },
+    {
+      "name": "lower_right_cybernetic_joints",
+      "box": [
+        1080,
+        1030,
+        1592,
+        1542
+      ],
+      "strength": 0.4,
+      "blend": 0.34,
+      "seed": 241222,
+      "face_exclusions": [
+        [
+          108,
+          178,
+          232,
+          307
+        ],
+        [
+          361,
+          271,
+          482,
+          407
+        ],
+        [
+          0,
+          350,
+          92,
+          478
+        ]
+      ],
+      "seconds": 21.667622566223145
+    }
+  ],
+  "composition_policy": {
+    "full_frame": "prior #10 composite preserved outside documented masks",
+    "star_field": "upper-left field preserved from prior composite",
+    "eclipse": "upper-right eclipse restored from tone-matched color-reference luminance",
+    "anatomy": "three local SD-Turbo crops blended only through feathered polygon masks",
+    "faces_architecture_wings_halos": "excluded from anatomy masks"
+  },
+  "unverified": [
+    "relief conversion",
+    "slicer preview",
+    "physical print"
+  ]
+}

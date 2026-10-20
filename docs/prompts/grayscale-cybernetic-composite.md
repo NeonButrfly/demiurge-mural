@@ -4,6 +4,8 @@ Linked issue: [#10](https://github.com/NeonButrfly/demiurge-mural/issues/10)
 
 Milestone: [Demiurge 800mm Bas-Relief](https://github.com/NeonButrfly/demiurge-mural/milestone/1)
 
+Status: Superseded as the current master by the celestial/anatomy regression repair in [#11](https://github.com/NeonButrfly/demiurge-mural/issues/11). The issue #10 workflow's insertion of the star field into the eclipse is retained here only as historical execution documentation.
+
 ## Original request
 
 “ok take the best of this and this and bring them together preserve the grayscale and the star field and eclipse”
