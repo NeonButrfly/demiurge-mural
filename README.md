@@ -44,3 +44,7 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `scripts/correct_celestial_layout.py` — deterministic reference transplant used to create the current master without regenerating the mural.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.
+
+## Archive and chronology
+
+The merged Demiurge collection is preserved in an oldest-to-newest hierarchy under [`archive/`](archive/), with a SHA-256 manifest and artifact lineage in [the archive index](docs/demiurge-archive.md). GitHub issue [#12](https://github.com/NeonButrfly/demiurge-mural/issues/12) tracks this consolidation.
