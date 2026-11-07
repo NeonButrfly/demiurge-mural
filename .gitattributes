@@ -6,3 +6,5 @@ archive/**/*.png filter=lfs diff=lfs merge=lfs -text
 archive/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 archive/**/*.webp filter=lfs diff=lfs merge=lfs -text
 archive/**/*.stl filter=lfs diff=lfs merge=lfs -text
+archive/**/*.hfp filter=lfs diff=lfs merge=lfs -text
+archive/**/*.hfpt filter=lfs diff=lfs merge=lfs -text

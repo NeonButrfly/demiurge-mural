@@ -1,0 +1,24 @@
+{
+  "source_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_sha256": "30bd8594639550bb2a501a0b7cfe208f7a8c109fcbb6e8764b866d65ba8fc58a",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "approved_mask_pixels": 20830,
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "repairs": [
+    "central_feet_and_shins",
+    "hooded_cybernetic_hand",
+    "spear_grip"
+  ],
+  "status": "approved_after_visual_and_invariant_review",
+  "visual_review": {
+    "hooded_hand_has_one_clear_owner": true,
+    "hooded_hand_has_five_distinct_mechanical_digits": true,
+    "spear_grip_has_four_wrapped_fingers_and_opposing_thumb": true,
+    "spear_shaft_is_continuous": true,
+    "hard_boundary_seams_observed": false
+  }
+}

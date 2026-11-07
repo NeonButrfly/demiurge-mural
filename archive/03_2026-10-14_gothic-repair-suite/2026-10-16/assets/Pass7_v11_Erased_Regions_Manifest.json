@@ -1,0 +1,30 @@
+{
+  "issue": 13,
+  "base": "assets\\reviews\\Pass7_v10_User_Erased_Areas.png",
+  "dimensions": [
+    1131,
+    1131
+  ],
+  "regions": {
+    "demon_upper_body": {
+      "pixels": 16317,
+      "bounds": {
+        "x0": 560,
+        "y0": 0,
+        "x1": 940,
+        "y1": 270
+      }
+    },
+    "reclining_replacement": {
+      "pixels": 40616,
+      "bounds": {
+        "x0": 520,
+        "y0": 700,
+        "x1": 1131,
+        "y1": 1131
+      }
+    }
+  },
+  "union_pixels": 56933,
+  "policy": "two replacement masks; all other supplied-image pixels remain byte-identical"
+}

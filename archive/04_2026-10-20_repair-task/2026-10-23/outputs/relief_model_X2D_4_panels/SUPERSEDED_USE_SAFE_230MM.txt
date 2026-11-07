@@ -1,0 +1,1 @@
+Superseded: use the SAFE_230mm panel set. The earlier 250 mm panels are too close to the X2D exclusion region.

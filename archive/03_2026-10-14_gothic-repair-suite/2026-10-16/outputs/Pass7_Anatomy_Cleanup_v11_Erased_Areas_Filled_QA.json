@@ -1,0 +1,20 @@
+{
+  "issue": 13,
+  "base": "assets\\reviews\\Pass7_v10_User_Erased_Areas.png",
+  "base_sha256": "3f666f6d035a842d461b228a04dfcc4596acda20993b52a67058bdcf5d342139",
+  "final": "outputs\\Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png",
+  "final_sha256": "e3e9f0d8d612f96c10bcb11614a31db9cc5791f41e3fe3e258f88dd5bc9f5c0e",
+  "dimensions": [
+    1131,
+    1131
+  ],
+  "selected_pixels": 56933,
+  "changed_pixels": 56865,
+  "changed_pixels_outside_masks": 0,
+  "outside_masks_byte_identical": true,
+  "changed_pixels_neutral_grayscale": true,
+  "repairs": {
+    "demon_upper_body": "continuous demon head, neck, shoulder, arm, wrist, and five-talon claw",
+    "reclining_replacement": "one fully draped reclining figure with connected anatomy"
+  }
+}

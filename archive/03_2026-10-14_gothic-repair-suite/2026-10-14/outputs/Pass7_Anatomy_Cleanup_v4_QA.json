@@ -1,0 +1,31 @@
+{
+  "source_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_sha256": "fdbc97f45e1d41780b3fe5ba6466d0a9f0e309312a9645a8abd670b47d38f611",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "approved_mask_pixels": 56766,
+  "mask_pixels_by_file": {
+    "Pass7_Central_Legs_Inpaint_Mask.png": 13123,
+    "Pass7_Hooded_Cybernetic_Hand_Mask.png": 5165,
+    "Pass7_Spear_Grip_Mask.png": 2542,
+    "Pass7_Reclining_Hip_Legs_Mask.png": 20559,
+    "Pass7_Ownerless_Center_Arm_Mask.png": 10234,
+    "Pass7_Central_Bulbous_Forms_Mask.png": 6462
+  },
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "new_repairs": [
+    "removed_ownerless_distended_center_arm_and_hand",
+    "removed_adjacent_unexplained_bulbous_forms",
+    "replaced_defects_with_non_anatomical_feather_and_drapery_relief"
+  ],
+  "preserved": [
+    "surrounding_faces",
+    "valid_skulls",
+    "valid_owned_foreground_arms",
+    "all_pixels_outside_approved_masks"
+  ],
+  "status": "approved_after_full_image_and_3x_crop_review"
+}

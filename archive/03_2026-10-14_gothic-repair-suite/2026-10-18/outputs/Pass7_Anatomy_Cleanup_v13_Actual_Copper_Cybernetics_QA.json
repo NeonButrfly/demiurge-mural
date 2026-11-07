@@ -1,0 +1,26 @@
+{
+  "issue": 14,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png",
+  "base_sha256": "e3e9f0d8d612f96c10bcb11614a31db9cc5791f41e3fe3e258f88dd5bc9f5c0e",
+  "reference": "assets\\references\\Demiurge_Copper_Cybernetic_Reference_2048.png",
+  "reference_role": "palette and mechanical vocabulary only; no donor replacement",
+  "final": "outputs\\Pass7_Anatomy_Cleanup_v13_Actual_Copper_Cybernetics.png",
+  "final_sha256": "6283dfc889490c5d23ee977ac7312e0602f73c254f1b0bef755f47a8763e697d",
+  "dimensions": [
+    1131,
+    1131
+  ],
+  "overlay_pixels": 44090,
+  "changed_pixels": 43967,
+  "copper_pixels": 38457,
+  "changed_pixels_outside_overlay": 0,
+  "outside_overlay_byte_identical": true,
+  "components": [
+    "fitted plates",
+    "bolted ports",
+    "joint collars",
+    "attached conduits",
+    "segmented gauntlet",
+    "mechanical spear clamp"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "issue": 11,
+  "destination": "outputs\\Pass7_Anatomy_Cleanup_v7_PDF_Repairs.png",
+  "masks": {
+    "demon_claw": "assets\\Pass7_v8_Demon_Claw_Mask.png",
+    "reclining_human": "assets\\Pass7_v8_Reclining_Human_Mask.png",
+    "hooded_arm": "assets\\Pass7_v8_Hooded_Arm_Mask.png",
+    "surface_filigree": "assets\\Pass7_v8_Surface_Filigree_Mask.png",
+    "union": "assets\\Pass7_v8_Cybernetic_Reintegration_Union_Mask.png"
+  },
+  "selected_pixels": {
+    "demon_claw": 5724,
+    "reclining_human": 50105,
+    "hooded_arm": 8175,
+    "surface_filigree": 22892,
+    "union": 86896
+  },
+  "anatomy_policy": "reclining silhouette replacement plus surface-only cybernetic overlays; all other anatomy protected"
+}

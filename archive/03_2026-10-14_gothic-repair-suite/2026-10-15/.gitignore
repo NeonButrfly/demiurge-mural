@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+work/
+outputs/
+output/
+tmp/
+assets/references/10152026_Annotated_Page_Upright.png
+assets/references/10152026_Registered_Annotation.png
+*.grsproj
+.env.local
+

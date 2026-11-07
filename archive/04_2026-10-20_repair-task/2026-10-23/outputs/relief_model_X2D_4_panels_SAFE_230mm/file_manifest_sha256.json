@@ -1,0 +1,62 @@
+[
+  {
+    "name": "assembled_four_panel_preview.png",
+    "size_bytes": 1438985,
+    "sha256": "94298dbf8514b83bdc175d8206a0b3844286619852e8c353d36b29106ad1720d"
+  },
+  {
+    "name": "panel_1_upper_left_preview.png",
+    "size_bytes": 411176,
+    "sha256": "96a21ba765522a764974a7c800febbd3ee7d260680a45870964192927060d2a9"
+  },
+  {
+    "name": "panel_1_upper_left_X2D_230mm.stl",
+    "size_bytes": 92736084,
+    "sha256": "a77ade519377622574b1605e14530512941ad535e5cddb2ba5a7b85db0f88393"
+  },
+  {
+    "name": "panel_2_upper_right_preview.png",
+    "size_bytes": 393276,
+    "sha256": "bdc9377cca32d8afe1a4b54592a23ef99afc466730be84eff78ea021e4614820"
+  },
+  {
+    "name": "panel_2_upper_right_X2D_230mm.stl",
+    "size_bytes": 92736084,
+    "sha256": "b60784ae6fca55f8cb2190008e45c26a74dfbffca1481d2537a84d9abf135506"
+  },
+  {
+    "name": "panel_3_lower_left_preview.png",
+    "size_bytes": 403313,
+    "sha256": "60159c22e663b1f741d1343cdd257d883257f307ea4c84194ce302e5397290e8"
+  },
+  {
+    "name": "panel_3_lower_left_X2D_230mm.stl",
+    "size_bytes": 92736084,
+    "sha256": "36a508994a921c4e3ac55fba3b6dee957f8455990025734b5a8d616d2e80274e"
+  },
+  {
+    "name": "panel_4_lower_right_preview.png",
+    "size_bytes": 406374,
+    "sha256": "8c7b25f4876b539e508205c0ee51b5d9c42cfd13fc44d719b5d1126e506afaed"
+  },
+  {
+    "name": "panel_4_lower_right_X2D_230mm.stl",
+    "size_bytes": 92736084,
+    "sha256": "969255c9202b325a6846d1ae84a5784dc99454708fa52120f2d3eafb333c6f43"
+  },
+  {
+    "name": "README.txt",
+    "size_bytes": 603,
+    "sha256": "82c5db1f7641dfecc2762afb8f125237904abfae712fac49e01cbb190cb8c3c6"
+  },
+  {
+    "name": "trimesh_manifold_validation.json",
+    "size_bytes": 2674,
+    "sha256": "0c57164f2dda6d23c0ebb27e790144938ec61266d689464e0e29e14a19c994bb"
+  },
+  {
+    "name": "x2d_four_panel_validation.json",
+    "size_bytes": 3805,
+    "sha256": "d82afce1770b26a848f99eead9f91ae08c8ac6afc9a49ea60b060b1aa01f4018"
+  }
+]

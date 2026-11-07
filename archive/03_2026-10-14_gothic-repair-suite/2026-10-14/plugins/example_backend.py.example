@@ -1,0 +1,13 @@
+"""Copy to plugins/my_backend.py and replace the implementation."""
+from gothic_repair.backends import InpaintBackend
+
+
+class MyBackend(InpaintBackend):
+    name = "my-local-model"
+
+    def inpaint(self, image, mask, prompt="", **options):
+        # Call a local model here and return a BGR uint8 numpy array.
+        raise NotImplementedError
+
+
+BACKEND = MyBackend()

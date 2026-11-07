@@ -1,0 +1,141 @@
+{
+  "source": "C:\\Users\\Keifm\\Downloads\\relief_model (1).stl",
+  "source_sha256": "00be722046f9bbe942ff8930629a88f20ada431fc4895ec98bafc98b12541bdf",
+  "source_triangle_count": 14899200,
+  "source_bounds_min": [
+    -300.0,
+    -300.0,
+    -2.5
+  ],
+  "source_bounds_max": [
+    300.0,
+    300.0,
+    32.096839904785156
+  ],
+  "source_grid_pitch_mm": 0.3124847412109375,
+  "source_grid_shape": [
+    1921,
+    1921
+  ],
+  "target_printer": "Bambu Lab X2D",
+  "installed_profile_printable_area_mm": [
+    256.0,
+    256.0
+  ],
+  "installed_profile_second_extruder_min_x_mm": 20.5,
+  "assembly_xy_mm": [
+    440.0,
+    440.0
+  ],
+  "panel_xy_mm": [
+    220.0,
+    220.0
+  ],
+  "full_bed_margin_per_axis_mm": 36.0,
+  "centered_full_bed_margin_per_edge_mm": 18.0,
+  "base_thickness_mm": 2.4,
+  "relief_elevation_mm": 21.704349517822266,
+  "total_height_mm": 24.10434913635254,
+  "xy_scale": 0.7333333333333333,
+  "z_relief_scale": 0.7333333333333333,
+  "seam_height_error_mm": {
+    "vertical": 0.0,
+    "horizontal": 0.0
+  },
+  "panels": [
+    {
+      "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels_SAFE_220mm\\panel_1_upper_left_X2D_220mm.stl",
+      "file_size_bytes": 92736084,
+      "triangle_count": 1854720,
+      "binary_stl_size_valid": true,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        220.0,
+        220.0,
+        23.186132431030273
+      ],
+      "extents": [
+        220.0,
+        220.0,
+        23.186132431030273
+      ],
+      "degenerate_triangles": 0
+    },
+    {
+      "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels_SAFE_220mm\\panel_2_upper_right_X2D_220mm.stl",
+      "file_size_bytes": 92736084,
+      "triangle_count": 1854720,
+      "binary_stl_size_valid": true,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        220.0,
+        220.0,
+        21.794574737548828
+      ],
+      "extents": [
+        220.0,
+        220.0,
+        21.794574737548828
+      ],
+      "degenerate_triangles": 0
+    },
+    {
+      "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels_SAFE_220mm\\panel_3_lower_left_X2D_220mm.stl",
+      "file_size_bytes": 92736084,
+      "triangle_count": 1854720,
+      "binary_stl_size_valid": true,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        220.0,
+        220.0,
+        24.10434913635254
+      ],
+      "extents": [
+        220.0,
+        220.0,
+        24.10434913635254
+      ],
+      "degenerate_triangles": 0
+    },
+    {
+      "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels_SAFE_220mm\\panel_4_lower_right_X2D_220mm.stl",
+      "file_size_bytes": 92736084,
+      "triangle_count": 1854720,
+      "binary_stl_size_valid": true,
+      "bounds_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_max": [
+        220.0,
+        220.0,
+        23.529882431030273
+      ],
+      "extents": [
+        220.0,
+        220.0,
+        23.529882431030273
+      ],
+      "degenerate_triangles": 0
+    }
+  ],
+  "notes": [
+    "The artwork was not smoothed or regenerated.",
+    "Each panel has a flat 2.4 mm base and exact shared seam samples.",
+    "The coplanar bottom uses a boundary-matched fan to avoid T-junctions.",
+    "Digital mesh checks do not establish physical fit or slicer success."
+  ]
+}

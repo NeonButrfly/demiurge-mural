@@ -1,0 +1,25 @@
+{
+  "edit_target": "outputs\\Pass7_Anatomy_Cleanup_v6.png",
+  "edit_target_sha256": "76966799cefbda037999da2b1c90b92b26009ccc56790cb2dea9728398e22e29",
+  "motif_reference": "assets\\references\\Demiurge_Four_Panel_Restoration_Reference_2048.png",
+  "motif_reference_sha256": "67de2583465d0de522d3084a3abc8a4f18bd708132164b4560a68ea146c3804a",
+  "raw_api_edit_sha256": "e56e078d0781f39c4ff060103dca9caa4de1f58b06720f93e5e53d2fcfa5c8f8",
+  "final_master_sha256": "05cf92d325aab0e53879fa99d6297484d20ed4567711d93962b94c59541a7063",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "neutral_grayscale_rgb_channels_identical": true,
+  "changed_pixels_vs_resized_v6": 4137990,
+  "changed_percent_vs_resized_v6": 98.6574,
+  "edit_scope": "whole_image_reference_guided_restoration",
+  "strict_mask_only_invariant": "not_applicable_to_user_requested_global_restoration",
+  "restored_motifs": [
+    "circular_and_radial_halos",
+    "classical_adult_sculptural_anatomy",
+    "cybernetic_plates_ports_and_joint_seams",
+    "body_attached_ribbed_wires_and_cables"
+  ],
+  "method": "OpenAI Image API CLI fallback using gpt-image-2 high-quality 2048 edit",
+  "status": "approved_after_full_image_and_detail_crop_review"
+}

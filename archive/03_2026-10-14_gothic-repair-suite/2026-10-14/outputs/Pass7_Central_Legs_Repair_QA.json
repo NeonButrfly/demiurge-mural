@@ -1,0 +1,28 @@
+{
+  "source_file_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_file_sha256": "a6e4c88d88acb9da8467d466ad318f7b527a7c38849e8a1de2c318b55b4b42ae",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "output_dimensions": [
+    1254,
+    1254
+  ],
+  "mask_nonzero_pixels": 13123,
+  "changed_pixels_outside_mask": 0,
+  "outside_mask_byte_identical": true,
+  "crop_xyxy": [
+    640,
+    510,
+    900,
+    770
+  ],
+  "candidate_status": "approved_after_visual_and_invariant_review",
+  "visual_review": {
+    "two_continuous_legs": true,
+    "two_distinct_feet": true,
+    "five_visible_toes_per_foot": true,
+    "hard_boundary_seam_observed": false
+  }
+}

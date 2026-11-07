@@ -1,0 +1,39 @@
+{
+  "source_sha256": "676ce57a5822fe3fa459541a6b8d894f8bd778b20f4c771180ef9487f17b1e08",
+  "out_of_mask_changed_pixels": 0,
+  "strict_invariant_passed": true,
+  "export_size": 2048,
+  "regions": [
+    {
+      "id": 1,
+      "name": "Central feet & shins",
+      "status": "pending",
+      "mask_pixels": 13123
+    },
+    {
+      "id": 2,
+      "name": "Reclining hip/legs",
+      "status": "pending",
+      "mask_pixels": 0
+    },
+    {
+      "id": 3,
+      "name": "Hooded cybernetic hand",
+      "status": "pending",
+      "mask_pixels": 0
+    },
+    {
+      "id": 4,
+      "name": "Floating arms",
+      "status": "pending",
+      "mask_pixels": 0
+    },
+    {
+      "id": 5,
+      "name": "Spear grip",
+      "status": "pending",
+      "mask_pixels": 0
+    }
+  ],
+  "note": "Heightmap is a luminance draft, not validated physical relief geometry."
+}

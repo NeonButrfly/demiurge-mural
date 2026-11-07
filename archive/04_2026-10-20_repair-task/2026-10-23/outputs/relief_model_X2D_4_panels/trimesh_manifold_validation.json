@@ -1,0 +1,114 @@
+[
+  {
+    "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels\\panel_1_upper_left_X2D_250mm.stl",
+    "vertices_after_merge": 927362,
+    "faces": 1854720,
+    "watertight": true,
+    "winding_consistent": true,
+    "is_volume": true,
+    "body_count": 1,
+    "euler_number": 2,
+    "volume_mm3": 603984.116778067,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        250.0,
+        250.0,
+        26.020605087280273
+      ]
+    ],
+    "extents": [
+      250.0,
+      250.0,
+      26.020605087280273
+    ]
+  },
+  {
+    "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels\\panel_2_upper_right_X2D_250mm.stl",
+    "vertices_after_merge": 927362,
+    "faces": 1854720,
+    "watertight": true,
+    "winding_consistent": true,
+    "is_volume": true,
+    "body_count": 1,
+    "euler_number": 2,
+    "volume_mm3": 505352.0054009,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        250.0,
+        250.0,
+        24.439289093017578
+      ]
+    ],
+    "extents": [
+      250.0,
+      250.0,
+      24.439289093017578
+    ]
+  },
+  {
+    "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels\\panel_3_lower_left_X2D_250mm.stl",
+    "vertices_after_merge": 927362,
+    "faces": 1854720,
+    "watertight": true,
+    "winding_consistent": true,
+    "is_volume": true,
+    "body_count": 1,
+    "euler_number": 2,
+    "volume_mm3": 714166.592592081,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        250.0,
+        250.0,
+        27.06403160095215
+      ]
+    ],
+    "extents": [
+      250.0,
+      250.0,
+      27.06403160095215
+    ]
+  },
+  {
+    "file": "C:\\Users\\Keifm\\Documents\\Codex\\2026-10-20\\referenced-chatgpt-conversation-this-is-an\\outputs\\relief_model_X2D_4_panels\\panel_4_lower_right_X2D_250mm.stl",
+    "vertices_after_merge": 927362,
+    "faces": 1854720,
+    "watertight": true,
+    "winding_consistent": true,
+    "is_volume": true,
+    "body_count": 1,
+    "euler_number": 2,
+    "volume_mm3": 722940.2329186508,
+    "bounds": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        250.0,
+        250.0,
+        26.411230087280273
+      ]
+    ],
+    "extents": [
+      250.0,
+      250.0,
+      26.411230087280273
+    ]
+  }
+]

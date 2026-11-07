@@ -1,0 +1,27 @@
+{
+  "issue": 9,
+  "source_reference": "assets\\references\\Demiurge_Four_Panel_Restoration_Reference_2048.png",
+  "source_reference_sha256": "67de2583465d0de522d3084a3abc8a4f18bd708132164b4560a68ea146c3804a",
+  "destination": "outputs\\Pass7_Anatomy_Cleanup_v6.png",
+  "destination_sha256": "76966799cefbda037999da2b1c90b92b26009ccc56790cb2dea9728398e22e29",
+  "final_master": "outputs\\Pass7_Anatomy_Cleanup_v6_Halos_Pass1.png",
+  "final_master_sha256": "19292c2fd4daafd2b922a5f75a16a66a534141ed24f6c28286528101feb4e80b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "selected_halo_pixels": 22045,
+  "changed_pixels_vs_destination": 22026,
+  "changed_pixels_outside_halo_selection": 0,
+  "outside_selection_byte_identical": true,
+  "edited_halo_pixels_neutral_grayscale": true,
+  "full_image_channel_note": "outside-selection pixels retain the destination's original channel values",
+  "method": "deterministic affine donor transfer from supplied 2048 source with 4px internal feather",
+  "restored_halos": [
+    "upper_simple_mechanical_ring",
+    "lower_radial_sunburst_crown"
+  ],
+  "scope": "halo pixels only; destination v6 preserved everywhere else",
+  "api_attempt": "rejected by output safety filter; no API pixels used",
+  "status": "passed automated invariants and full-frame/detail visual review"
+}

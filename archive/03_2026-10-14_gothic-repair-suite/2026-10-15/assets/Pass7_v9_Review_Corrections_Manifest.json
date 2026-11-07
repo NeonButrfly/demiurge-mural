@@ -1,0 +1,92 @@
+{
+  "issue": 12,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v7_PDF_Repairs.png",
+  "regions": {
+    "yellow_claw_wing": {
+      "pixels": 46957,
+      "bounds": {
+        "x0": 621,
+        "y0": 0,
+        "x1": 1027,
+        "y1": 234
+      }
+    },
+    "red_bulbs": {
+      "pixels": 16751,
+      "bounds": {
+        "x0": 0,
+        "y0": 387,
+        "x1": 1171,
+        "y1": 1254
+      }
+    },
+    "blue_reclining": {
+      "pixels": 142992,
+      "bounds": {
+        "x0": 583,
+        "y0": 819,
+        "x1": 1185,
+        "y1": 1254
+      }
+    },
+    "green_heads": {
+      "pixels": 8750,
+      "bounds": {
+        "x0": 785,
+        "y0": 913,
+        "x1": 1035,
+        "y1": 1153
+      }
+    },
+    "purple_hooded_arm": {
+      "pixels": 6396,
+      "bounds": {
+        "x0": 172,
+        "y0": 506,
+        "x1": 563,
+        "y1": 790
+      }
+    }
+  },
+  "red_components": 6,
+  "red_tiles": [
+    {
+      "x0": 350,
+      "y0": 372,
+      "x1": 513,
+      "y1": 535
+    },
+    {
+      "x0": 190,
+      "y0": 487,
+      "x1": 361,
+      "y1": 658
+    },
+    {
+      "x0": 0,
+      "y0": 1010,
+      "x1": 165,
+      "y1": 1175
+    },
+    {
+      "x0": 0,
+      "y0": 1067,
+      "x1": 187,
+      "y1": 1254
+    },
+    {
+      "x0": 1019,
+      "y0": 1087,
+      "x1": 1186,
+      "y1": 1254
+    },
+    {
+      "x0": 232,
+      "y0": 1087,
+      "x1": 399,
+      "y1": 1254
+    }
+  ],
+  "union_pixels": 210617,
+  "outside_mask_policy": "all final pixels outside the union remain byte-identical to v7"
+}

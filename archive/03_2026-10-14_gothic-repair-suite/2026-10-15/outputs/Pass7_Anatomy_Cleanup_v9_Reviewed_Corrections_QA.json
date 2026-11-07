@@ -1,0 +1,24 @@
+{
+  "issue": 12,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v7_PDF_Repairs.png",
+  "base_sha256": "501491b8fa330f485c0af6bdcdb918c7f6218e5299541bc8b678207598259603",
+  "final": "outputs\\Pass7_Anatomy_Cleanup_v9_Reviewed_Corrections.png",
+  "final_sha256": "87707d5155051b1df78c834e215907f2d89e401284de966d9a2a7a3608952c52",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "selected_pixels": 210617,
+  "changed_pixels": 203183,
+  "changed_pixels_outside_masks": 0,
+  "outside_masks_byte_identical": true,
+  "changed_pixels_neutral_grayscale": true,
+  "repairs": {
+    "yellow": "connected five-talon claw and coherent bat wing donor",
+    "red": "six ownerless bulbs replaced with adjacent relief texture",
+    "blue": "bright tonally matched fully draped reclining figure donor",
+    "green": "unattached heads removed within the lower donor footprint",
+    "purple": "rejected v8 engraving removed; clean v7 five-finger cybernetic arm restored"
+  },
+  "generation": "focused built-in edits for yellow and blue/green; user-supplied external six-panel donor for red; deterministic v7 restoration for purple"
+}

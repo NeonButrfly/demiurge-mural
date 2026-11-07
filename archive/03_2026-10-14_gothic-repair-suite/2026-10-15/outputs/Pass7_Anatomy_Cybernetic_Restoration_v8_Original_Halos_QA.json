@@ -1,0 +1,24 @@
+{
+  "issue": 9,
+  "edit_target": "outputs\\Pass7_Anatomy_Cybernetic_Restoration_v7.png",
+  "edit_target_sha256": "05cf92d325aab0e53879fa99d6297484d20ed4567711d93962b94c59541a7063",
+  "original_halo_reference": "assets\\Gothic_Relief_Pass_7_Original.png",
+  "original_halo_reference_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "generated_candidate": "assets\\generated\\Pass7_Original_Halos_Restoration_Candidate.png",
+  "generated_candidate_sha256": "482c7e77332afec4ce96c474d5a75e527f68f560098858ff9fde946f015be988",
+  "approved_selection": "assets\\Pass7_Original_Halos_Selection.png",
+  "approved_selection_pixels": 58541,
+  "final_master": "outputs\\Pass7_Anatomy_Cybernetic_Restoration_v8_Original_Halos.png",
+  "final_master_sha256": "b1fc0d8ce5a03845b4617c5a61cdb14596a77335c96858768b67b98c86ba57d1",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "changed_pixels_vs_v7": 55280,
+  "changed_pixels_outside_approved_selection": 0,
+  "outside_selection_byte_identical": true,
+  "neutral_grayscale_rgb_channels_identical": true,
+  "method": "gpt-image-2 reference-guided halo edit, then 8px internal feather and strict mask compositing",
+  "scope": "two upper-central engraved halo rings only",
+  "status": "passed automated invariants; visually reviewed at full frame and halo detail"
+}

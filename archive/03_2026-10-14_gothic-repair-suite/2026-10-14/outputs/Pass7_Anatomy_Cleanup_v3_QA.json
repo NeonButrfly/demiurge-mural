@@ -1,0 +1,24 @@
+{
+  "source_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_sha256": "3f182f50402e2228691a02ca7544a01bab45f470c9ebcfb471250a06af46932a",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "approved_mask_pixels": 41389,
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "repairs": [
+    "central_feet_and_shins",
+    "hooded_cybernetic_hand",
+    "spear_grip",
+    "reclining_hip_and_leg_ownership"
+  ],
+  "method": "same-artwork donor transform with constrained feather compositing",
+  "arm_audit": {
+    "reviewed_region": "lower_center_arm_cluster",
+    "additional_edit_applied": false,
+    "reason": "high-resolution review showed a continuous shoulder-to-hand owner; editing would replace valid anatomy"
+  },
+  "status": "approved_after_visual_and_invariant_review"
+}

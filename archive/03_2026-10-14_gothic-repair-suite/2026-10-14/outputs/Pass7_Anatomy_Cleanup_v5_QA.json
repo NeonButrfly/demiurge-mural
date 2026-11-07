@@ -1,0 +1,27 @@
+{
+  "source_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_sha256": "15dbce723ab928fe3caa45b072eaa0b445493a511bbef6be7ba495822b6bcb36",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "approved_mask_pixels": 62133,
+  "mask_pixels_by_file": {
+    "Pass7_Central_Legs_Inpaint_Mask.png": 13123,
+    "Pass7_Hooded_Cybernetic_Hand_Mask.png": 5165,
+    "Pass7_Spear_Grip_Mask.png": 2542,
+    "Pass7_Reclining_Hip_Legs_Mask.png": 20559,
+    "Pass7_Ownerless_Center_Arm_Mask.png": 10234,
+    "Pass7_Central_Bulbous_Forms_Mask.png": 6462,
+    "Pass7_RobeExtrusion_Mask.png": 3442,
+    "Pass7_UpperExtrusion_Mask.png": 1925
+  },
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "new_repairs": [
+    "user_highlighted_robe_extrusion",
+    "user_highlighted_upper_extrusion"
+  ],
+  "method": "built-in image edit texture, luminance matching, strict mask-only compositing",
+  "status": "approved_after_full_image_and_4x_crop_review"
+}

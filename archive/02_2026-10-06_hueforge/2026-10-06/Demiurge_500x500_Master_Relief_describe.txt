@@ -1,0 +1,25 @@
+Project: Demiurge_500x500_Master_Relief.hfp
+
+Print at 100% infill with a layer height of 0.08mm with a base layer of 0.16mm
+
+
+ The Model is 250x250mm in size
+
+ You may print at higher layer heights below the Base Thickness of 0.48mm
+ The Max allowed Thickness is 2.24mm and the Actual Thickness is 2.24mm
+
+
+	#080a0d PLA PolyLite Black  Transmission Distance: 0.3
+	#4c5f71 PLA BambuLab Basic Blue Gray  Transmission Distance: 3
+	#8c9099 PLA PolyLite Grey  Transmission Distance: 1
+	#e2dedb PLA PolyLite White  Transmission Distance: 5
+This print uses 4 unique filaments
+
+
+Swap Instructions:
+	Start with Black
+	At layer #8 (0.72mm) swap to Blue Gray
+	At layer #13 (1.12mm) swap to Grey
+
+Border Only Colors from here until the end.
+	At layer #20 (1.68mm) swap to White for the rest.

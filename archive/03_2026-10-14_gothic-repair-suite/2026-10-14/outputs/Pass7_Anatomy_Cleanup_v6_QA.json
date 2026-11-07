@@ -1,0 +1,27 @@
+{
+  "source_sha256": "cfe58635b4ed1e61bab0607cfa7e337a390419e2ceba0f605a07868432a72617",
+  "output_sha256": "76966799cefbda037999da2b1c90b92b26009ccc56790cb2dea9728398e22e29",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "approved_mask_pixels": 66983,
+  "mask_pixels_by_file": {
+    "Pass7_Central_Legs_Inpaint_Mask.png": 13123,
+    "Pass7_Hooded_Cybernetic_Hand_Mask.png": 5165,
+    "Pass7_Spear_Grip_Mask.png": 2542,
+    "Pass7_Reclining_Hip_Legs_Mask.png": 20559,
+    "Pass7_Ownerless_Center_Arm_Mask.png": 10234,
+    "Pass7_Central_Bulbous_Forms_Mask.png": 6462,
+    "Pass7_RobeExtrusion_Mask.png": 3442,
+    "Pass7_UpperExtrusion_Mask.png": 1925,
+    "Pass7_Highlighted_Unwanted_Arm_Mask.png": 4850
+  },
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "new_repairs": [
+    "removed_user_highlighted_unwanted_arm_and_hand"
+  ],
+  "method": "built-in precise image edit, grayscale luminance matching, strict mask-only compositing",
+  "status": "approved_after_full_image_and_4x_crop_review"
+}

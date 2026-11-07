@@ -1,0 +1,26 @@
+{
+  "issue": 11,
+  "reference": "assets/references/Demiurge_Four_Panel_Restoration_Reference_2048.png",
+  "destination": "outputs\\Pass7_Anatomy_Cleanup_v7_PDF_Repairs.png",
+  "destination_sha256": "501491b8fa330f485c0af6bdcdb918c7f6218e5299541bc8b678207598259603",
+  "final_master": "outputs\\Pass7_Anatomy_Cleanup_v8_Cybernetic_Reintegration.png",
+  "final_master_sha256": "e843036212dffc648b9e7ed695f247754a2990bab7d30dcbeaf456a90a04caba",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "selected_pixels": 86896,
+  "changed_pixels": 85286,
+  "changed_pixels_outside_masks": 0,
+  "outside_masks_byte_identical": true,
+  "edited_pixels_neutral_grayscale": true,
+  "anatomy_policy": "no anatomy changes outside the reclining replacement silhouette; hooded arm and body filigree are surface-bound overlays",
+  "completed_repairs": [
+    "grayscale_human_reclining_figure_with_cybernetic_filigree",
+    "connected_five_digit_demon_claw",
+    "continuous_hooded_cybernetic_arm_and_hand",
+    "surface_only_electronic_filigree_on_five_existing_bodies"
+  ],
+  "generation": "focused gpt-image-2 donor plates after full-image built-in edit was safety-blocked",
+  "status": "passed automated invariants and recorded full-frame/detail anatomy audit"
+}

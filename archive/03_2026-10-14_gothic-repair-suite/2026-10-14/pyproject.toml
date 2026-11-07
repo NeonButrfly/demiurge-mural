@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gothic-repair-suite"
+version = "1.0.0"
+description = "Mask-first local image repair workstation with strict compositing invariants"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python>=4.9",
+  "Pillow>=10.2",
+  "PySide6-Essentials>=6.7",
+  "requests>=2.31"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+gothic-repair = "gothic_repair.app:main"
+
+[tool.setuptools.packages.find]
+include = ["gothic_repair*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

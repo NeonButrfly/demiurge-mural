@@ -1,0 +1,23 @@
+{
+  "issue": 10,
+  "annotated_source": "assets/references/10152026_Annotated_Repairs.pdf",
+  "destination": "outputs\\Pass7_Anatomy_Cleanup_v6_Halos_Pass1.png",
+  "destination_sha256": "19292c2fd4daafd2b922a5f75a16a66a534141ed24f6c28286528101feb4e80b",
+  "final_master": "outputs\\Pass7_Anatomy_Cleanup_v7_PDF_Repairs.png",
+  "final_master_sha256": "501491b8fa330f485c0af6bdcdb918c7f6218e5299541bc8b678207598259603",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "yellow_regions_repaired": 12,
+  "red_regions_replaced": 3,
+  "approved_mask_pixels": 151872,
+  "changed_pixels_vs_destination": 136479,
+  "changed_pixels_outside_approved_masks": 0,
+  "outside_masks_byte_identical": true,
+  "edited_pixels_neutral_grayscale": true,
+  "method": "focused gpt-image-2 donor plates, robust local tone matching, Poisson harmonization for yellow regions, and 7px inward feather",
+  "scope": "PDF-highlighted pixels only; halo-pass destination preserved everywhere else",
+  "full_source_edit_attempt": "blocked by output safety filter; no blocked output pixels used",
+  "status": "passed automated compositing invariants and full-frame/detail visual review"
+}

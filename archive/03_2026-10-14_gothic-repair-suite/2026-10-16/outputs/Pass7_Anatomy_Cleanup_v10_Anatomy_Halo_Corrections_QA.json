@@ -1,0 +1,24 @@
+{
+  "issue": 13,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v9_Reviewed_Corrections.png",
+  "base_sha256": "87707d5155051b1df78c834e215907f2d89e401284de966d9a2a7a3608952c52",
+  "final": "outputs\\Pass7_Anatomy_Cleanup_v10_Anatomy_Halo_Corrections.png",
+  "final_sha256": "6461faf059f9fae23925792e52c312998174675467ec60fa68ebfeba129fbe71",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "selected_pixels": 122807,
+  "changed_pixels": 121117,
+  "changed_pixels_outside_masks": 0,
+  "outside_masks_byte_identical": true,
+  "changed_pixels_neutral_grayscale": true,
+  "repairs": {
+    "demon_arm": "one attached shoulder-to-five-talon claw chain",
+    "reclining_lady": "one coherent fully draped reclining figure with cybernetic filigree",
+    "spiked_halo": "original-source radial halo centered at the angel head",
+    "abdominal_bump": "ownerless protrusion replaced by continuous robe and feather folds",
+    "upper_right_bubbles": "two smooth bubble clusters replaced by angular wing and Gothic architectural relief"
+  },
+  "generation": "focused donor edits for demon arm, reclining figure, drapery, and bubbles; deterministic original-source halo transfer"
+}

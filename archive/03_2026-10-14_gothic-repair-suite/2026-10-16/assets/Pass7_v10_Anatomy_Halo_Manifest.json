@@ -1,0 +1,53 @@
+{
+  "issue": 13,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v9_Reviewed_Corrections.png",
+  "regions": {
+    "demon_arm": {
+      "pixels": 9560,
+      "bounds": {
+        "x0": 650,
+        "y0": 0,
+        "x1": 1000,
+        "y1": 280
+      }
+    },
+    "reclining_lady": {
+      "pixels": 45386,
+      "bounds": {
+        "x0": 570,
+        "y0": 810,
+        "x1": 1210,
+        "y1": 1254
+      }
+    },
+    "spiked_halo": {
+      "pixels": 17024,
+      "bounds": {
+        "x0": 350,
+        "y0": 105,
+        "x1": 570,
+        "y1": 315
+      }
+    },
+    "abdominal_bump": {
+      "pixels": 33669,
+      "bounds": {
+        "x0": 390,
+        "y0": 290,
+        "x1": 710,
+        "y1": 750
+      }
+    },
+    "upper_right_bubbles": {
+      "pixels": 17168,
+      "bounds": {
+        "x0": 900,
+        "y0": 0,
+        "x1": 1090,
+        "y1": 370
+      }
+    }
+  },
+  "union_pixels": 122807,
+  "policy": "five independent masks; all other v9 pixels remain byte-identical"
+}

@@ -1,0 +1,158 @@
+{
+  "registration_matches": 3675,
+  "registration_inliers": 3586,
+  "yellow_regions": [
+    {
+      "x": 367,
+      "y": 477,
+      "width": 149,
+      "height": 144,
+      "pixels": 11995
+    },
+    {
+      "x": 465,
+      "y": 495,
+      "width": 22,
+      "height": 14,
+      "pixels": 146
+    },
+    {
+      "x": 886,
+      "y": 558,
+      "width": 63,
+      "height": 72,
+      "pixels": 761
+    },
+    {
+      "x": 865,
+      "y": 595,
+      "width": 15,
+      "height": 39,
+      "pixels": 352
+    },
+    {
+      "x": 436,
+      "y": 615,
+      "width": 24,
+      "height": 9,
+      "pixels": 115
+    },
+    {
+      "x": 880,
+      "y": 631,
+      "width": 48,
+      "height": 17,
+      "pixels": 385
+    },
+    {
+      "x": 920,
+      "y": 657,
+      "width": 25,
+      "height": 25,
+      "pixels": 141
+    },
+    {
+      "x": 531,
+      "y": 741,
+      "width": 63,
+      "height": 68,
+      "pixels": 995
+    },
+    {
+      "x": 45,
+      "y": 751,
+      "width": 158,
+      "height": 149,
+      "pixels": 14659
+    },
+    {
+      "x": 426,
+      "y": 764,
+      "width": 134,
+      "height": 188,
+      "pixels": 14341
+    },
+    {
+      "x": 822,
+      "y": 864,
+      "width": 64,
+      "height": 146,
+      "pixels": 4743
+    },
+    {
+      "x": 1127,
+      "y": 952,
+      "width": 98,
+      "height": 97,
+      "pixels": 2602
+    },
+    {
+      "x": 215,
+      "y": 1029,
+      "width": 219,
+      "height": 181,
+      "pixels": 21363
+    },
+    {
+      "x": 525,
+      "y": 1038,
+      "width": 154,
+      "height": 144,
+      "pixels": 4899
+    },
+    {
+      "x": 264,
+      "y": 1092,
+      "width": 9,
+      "height": 16,
+      "pixels": 80
+    },
+    {
+      "x": 513,
+      "y": 1109,
+      "width": 10,
+      "height": 21,
+      "pixels": 112
+    },
+    {
+      "x": 528,
+      "y": 1113,
+      "width": 12,
+      "height": 17,
+      "pixels": 115
+    },
+    {
+      "x": 514,
+      "y": 1139,
+      "width": 12,
+      "height": 17,
+      "pixels": 74
+    }
+  ],
+  "red_regions": [
+    {
+      "x": 718,
+      "y": 67,
+      "width": 106,
+      "height": 81,
+      "pixels": 4084
+    },
+    {
+      "x": 918,
+      "y": 645,
+      "width": 56,
+      "height": 57,
+      "pixels": 1667
+    },
+    {
+      "x": 659,
+      "y": 915,
+      "width": 423,
+      "height": 320,
+      "pixels": 45385
+    }
+  ],
+  "yellow_selected_pixels": 95060,
+  "red_selected_pixels": 57128,
+  "union_selected_pixels": 151872
+}

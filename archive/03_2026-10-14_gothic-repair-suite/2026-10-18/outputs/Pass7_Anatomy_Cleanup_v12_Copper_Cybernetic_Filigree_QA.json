@@ -1,0 +1,19 @@
+{
+  "issue": 14,
+  "base": "outputs\\Pass7_Anatomy_Cleanup_v11_Erased_Areas_Filled.png",
+  "base_sha256": "e3e9f0d8d612f96c10bcb11614a31db9cc5791f41e3fe3e258f88dd5bc9f5c0e",
+  "reference": "assets\\references\\Demiurge_Copper_Cybernetic_Reference_2048.png",
+  "reference_sha256": "798625b815e314cafc2bf2a2e2a0c2be2ab6d7978efd34c374b2e6d2417c364c",
+  "final": "outputs\\Pass7_Anatomy_Cleanup_v12_Copper_Cybernetic_Filigree.png",
+  "final_sha256": "e79df95b3b243068ad0c3927b85105658effa99a59075660a926053316873baf",
+  "dimensions": [
+    1131,
+    1131
+  ],
+  "overlay_pixels": 55065,
+  "changed_pixels": 54911,
+  "copper_pixels": 33006,
+  "changed_pixels_outside_overlay": 0,
+  "outside_overlay_byte_identical": true,
+  "method": "reference-derived copper palette with deterministic non-replacement cybernetic overlay"
+}
