@@ -33,4 +33,4 @@ Regenerable virtual environments, runtime dependency directories, Python bytecod
 
 The 2026-10-23 X2D set has four STL panels and a panel 1 X2D 3MF. Bambu Studio slicing, printer placement, physical seam fit, and physical printing are not verified here. The archived X2D geometry and the main repository's October 19 grayscale master are different workflow outputs; the archive does not claim that the X2D files were regenerated from that master.
 
-Initial consolidation: [issue #12](https://github.com/NeonButrfly/demiurge-mural/issues/12). Remaining source-folder integration and retirement: [issue #14](https://github.com/NeonButrfly/demiurge-mural/issues/14). No milestone is assigned; this is archive/documentation work.
+Initial consolidation: [issue #12](https://github.com/NeonButrfly/demiurge-mural/issues/12). The additional sources are integrated under [issue #14](https://github.com/NeonButrfly/demiurge-mural/issues/14); removal of their local copies remains blocked by the active filesystem policy. No milestone is assigned; this is archive/documentation work.
