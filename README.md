@@ -42,6 +42,8 @@ Tracked request: [Issue #1](https://github.com/NeonButrfly/demiurge-mural/issues
 - `outputs/grayscale_cybernetic_composite_v3/demiurge_grayscale_cybernetic_anatomy_corrected_celestials_2048.png` — current issue #11 master. It preserves the v2 anatomy work and replaces only the two celestial circles with the correctly oriented reference motifs.
 - `outputs/grayscale_cybernetic_composite_v3/celestial_layout_correction_mask.png` and `celestial_layout_correction_manifest.json` — exact edit containment, source hashes, circle mappings, and validation statistics for the celestial correction.
 - `scripts/correct_celestial_layout.py` — deterministic reference transplant used to create the current master without regenerating the mural.
+- `assets/source/fix3.png` — user-supplied annotated mural source for issue #15; retained unchanged.
+- `docs/prompts/fix3-colored-patch-repair.md` — prompt capture, repair scope, and validation record for issue #15.
 
 The panel images are geometry/layout artwork inputs. Their grayscale values encode the relief signal; the dark perimeter is intentionally low-Z. Physical printer fit and relief depth are not established until the target slicer and printer are checked.
 
