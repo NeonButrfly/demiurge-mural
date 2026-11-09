@@ -1,0 +1,104 @@
+{
+  "issue": 15,
+  "source": "assets/source/fix3.png",
+  "output": "outputs/fix3_repair/fix3_grayscale_repaired.png",
+  "mask": "outputs/fix3_repair/repair_mask.png",
+  "dimensions": {
+    "width": 2047,
+    "height": 2047
+  },
+  "source_sha256": "2a767bb8b12652d602004ab70e41808fb0bd7ba47892eef48bef0cab3c80f591",
+  "output_sha256": "ffdff27f71c2c95e2d0f15395a354d6108badf59e01f08b5fc599002888e6e6b",
+  "regions": [
+    {
+      "name": "cyan",
+      "crop": [
+        435,
+        1145,
+        260,
+        275
+      ],
+      "color_mask": "cyan",
+      "seed_pixels": 13891,
+      "composited_pixels": 15006,
+      "changed_pixels": 15006
+    },
+    {
+      "name": "magenta",
+      "crop": [
+        575,
+        1115,
+        220,
+        260
+      ],
+      "color_mask": "magenta",
+      "seed_pixels": 10469,
+      "composited_pixels": 10527,
+      "changed_pixels": 10527
+    },
+    {
+      "name": "yellow",
+      "crop": [
+        420,
+        1340,
+        240,
+        230
+      ],
+      "color_mask": "yellow",
+      "seed_pixels": 10231,
+      "composited_pixels": 19849,
+      "changed_pixels": 19849
+    },
+    {
+      "name": "right_vertical",
+      "crop": [
+        1180,
+        1330,
+        46,
+        245
+      ],
+      "color_mask": "olive",
+      "seed_pixels": 3023,
+      "composited_pixels": 3313,
+      "changed_pixels": 3313
+    },
+    {
+      "name": "right_lower",
+      "crop": [
+        1310,
+        1575,
+        220,
+        145
+      ],
+      "color_mask": "warm",
+      "seed_pixels": 4003,
+      "composited_pixels": 12288,
+      "changed_pixels": 12288
+    },
+    {
+      "name": "residual_color_cleanup",
+      "crop": "two localized markup bounding areas",
+      "method": "source-luminance grayscale for residual mark edges",
+      "changed_pixels": 31096
+    },
+    {
+      "name": "dark_annotation_blocks",
+      "regions": [
+        "magenta_top_block",
+        "right_lower_blocks",
+        "right_orange_block"
+      ],
+      "composited_pixels": 19992
+    }
+  ],
+  "validation": {
+    "changed_pixels": 101640,
+    "mask_pixels": 101794,
+    "changes_outside_mask": 0,
+    "changed_pixels_not_neutral_grayscale": 0,
+    "residual_color_pixels_over_8": 0,
+    "source_preserved": true
+  },
+  "method": "Five separately generated detail crops composited over local color masks plus three tight polygons for dark blocks belonging to those same annotations. Residual colored edges inside the marked areas are converted from source luminance. Unmarked pixels are copied from fix3.",
+  "limitations": "Visual review is required for anatomy continuity and local seams. Relief conversion, slicing, and printing are untested."
+}
