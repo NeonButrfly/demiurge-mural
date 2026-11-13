@@ -1,0 +1,24 @@
+{
+  "output": "C:\\ChatGPT\\3dprints\\code-3dmodels\\Demiurge Mural\\outputs\\mural_character_redesign\\demiurge_bridge_flow_refined.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "seam_changed_pixels": 21206,
+  "seam_changed_bounds": [
+    1131,
+    1195,
+    1649,
+    1689
+  ],
+  "outside_seam_bands_changed": 0,
+  "new_strong_color_pixels": 0,
+  "kharn_region_unchanged": true,
+  "sha256": "746474fa4b351bf2a8663bb7e97ddd40827e16e220c33317e7af3174a0c92a33",
+  "rejected_qwen_generation_ids": [
+    "3M4WUQXNLyEoSUWZehjAlvWiv7Z",
+    "3M4WqtJbidycaG0jTL4UJa7YDb7",
+    "3M4XBwdH54jn5HFXiknATKYRcSH"
+  ],
+  "note": "The rejected Qwen candidates were not composited into this output."
+}

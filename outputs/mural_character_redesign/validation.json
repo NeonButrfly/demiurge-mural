@@ -1,0 +1,26 @@
+{
+  "source": "C:\\ChatGPT\\3dprints\\code-3dmodels\\Demiurge Mural\\outputs\\qwen_three_women_repair\\anatomy_kharn_fix\\demiurge_faces_anatomy_repaired.png",
+  "final": "C:\\ChatGPT\\3dprints\\code-3dmodels\\Demiurge Mural\\outputs\\mural_character_redesign\\demiurge_redesigned_three_groups.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "changed_pixels": 407883,
+  "changed_bounds": [
+    438,
+    729,
+    1759,
+    1673
+  ],
+  "outside_allowed_changed": 0,
+  "max_chroma": 25,
+  "kharn_area_unchanged": true,
+  "source_sha256": "0d9f1c33c13cf2e1d6bf964a01df2062b27e8a3cd44e89ba1bc35eb297d3355e",
+  "final_sha256": "eef832eb410b4b60b9bf8f3c31c09c1c8a6c8c8f9b16dae94e8b4ca28c2797da",
+  "qwen_generations": [
+    "3M4TrHWdzvqZ6pBE2LeRAjpTGxP",
+    "3M4UGVfTI18yyTokiL3Sh3x6sFA",
+    "3M4UdkO7eNYjW4KLFgw6kqE0ifP"
+  ],
+  "coins_spent": 2070
+}
