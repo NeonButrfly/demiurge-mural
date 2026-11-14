@@ -1,0 +1,21 @@
+{
+  "source": "demiurge_bridge_flow_refined.png",
+  "output": "demiurge_bridge_mericanai_woman.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "changed_pixels": 53209,
+  "changed_bounds": [
+    461,
+    1083,
+    749,
+    1414
+  ],
+  "outside_mask_changed": 0,
+  "new_strong_color_pixels": 0,
+  "kharn_region_unchanged": true,
+  "generation_id": "3M4f6p60naWUkB4JZnFjWGGvB6H",
+  "coins": 690,
+  "sha256": "b5e5331ce88e8f019d360b361ad9c9277ac9a00740eacbd99dc6a72b2461c768"
+}
