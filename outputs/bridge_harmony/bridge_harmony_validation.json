@@ -1,0 +1,12 @@
+{
+  "source_sha256": "1198eb198f584ec7b90948c6acac1c312305c1ba200c94d3e304f89ad9247d1c",
+  "output_sha256": "57e8027f217f55d0aeb9b752965c0a928c0eee42406ac513eee37b067afd8e70",
+  "size_px": [
+    2048,
+    2048
+  ],
+  "changed_pixels": 800582,
+  "changed_outside_declared_masks": 0,
+  "strong_color_pixels": 0,
+  "seam_generation_id": "3M4jdEm2lHDinvVst5wkM1twZyV"
+}

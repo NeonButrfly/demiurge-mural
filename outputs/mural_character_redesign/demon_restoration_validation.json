@@ -1,0 +1,20 @@
+{
+  "source": "demiurge_bridge_mericanai_woman.png",
+  "output": "demiurge_bridge_mericanai_original_demon.png",
+  "size": [
+    2048,
+    2048
+  ],
+  "changed_pixels": 168421,
+  "changed_bounds": [
+    1150,
+    729,
+    1759,
+    1689
+  ],
+  "outside_demon_and_seam_masks_changed": 0,
+  "new_strong_color_pixels": 0,
+  "mericanai_woman_region_unchanged": true,
+  "kharn_region_unchanged": true,
+  "sha256": "1198eb198f584ec7b90948c6acac1c312305c1ba200c94d3e304f89ad9247d1c"
+}

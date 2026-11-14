@@ -1,0 +1,29 @@
+{
+  "source": "outputs\\bridge_harmony\\demiurge_bridge_harmonized.png",
+  "source_sha256": "57e8027f217f55d0aeb9b752965c0a928c0eee42406ac513eee37b067afd8e70",
+  "full_size_mm": [
+    800.0,
+    800.0
+  ],
+  "base_mm": 3.0,
+  "emboss_above_base_mm": 12.0,
+  "total_max_mm": 15.0,
+  "height_gamma": 0.85,
+  "crop_source_px": [
+    1120,
+    1200,
+    1376,
+    1456
+  ],
+  "crop_size_mm": [
+    100.0,
+    100.0
+  ],
+  "crop_vertices_per_axis": 129,
+  "crop_triangle_count": 66560,
+  "crop_z_range_mm": [
+    0.0,
+    15.0
+  ],
+  "physical_print_tested": false
+}
