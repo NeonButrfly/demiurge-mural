@@ -1,0 +1,53 @@
+{
+  "source": "outputs\\bridge_refinement\\demiurge_bridge_refined.png",
+  "source_sha256": "17853dd042931da6b9ba7d9deb67f249b80d04eaee5d021a09e60da11eb54e52",
+  "full_size_mm": [
+    800.0,
+    800.0
+  ],
+  "base_mm": 3.0,
+  "emboss_above_base_mm": 12.0,
+  "total_max_mm": 15.0,
+  "height_gamma": 0.85,
+  "samples": {
+    "trio": {
+      "crop_source_px": [
+        1120,
+        1200,
+        1376,
+        1456
+      ],
+      "file": "outputs\\bridge_refinement\\bridge_trio_100mm_sample.stl",
+      "size_mm": [
+        100.0,
+        100.0
+      ],
+      "vertices_per_axis": 129,
+      "triangle_count": 66560,
+      "z_range_mm": [
+        0.0,
+        15.0
+      ]
+    },
+    "kharn": {
+      "crop_source_px": [
+        1536,
+        1536,
+        1792,
+        1792
+      ],
+      "file": "outputs\\bridge_refinement\\bridge_kharn_100mm_sample.stl",
+      "size_mm": [
+        100.0,
+        100.0
+      ],
+      "vertices_per_axis": 129,
+      "triangle_count": 66560,
+      "z_range_mm": [
+        0.0,
+        15.0
+      ]
+    }
+  },
+  "physical_print_tested": false
+}

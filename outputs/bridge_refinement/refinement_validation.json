@@ -1,0 +1,13 @@
+{
+  "source_sha256": "57e8027f217f55d0aeb9b752965c0a928c0eee42406ac513eee37b067afd8e70",
+  "output_sha256": "17853dd042931da6b9ba7d9deb67f249b80d04eaee5d021a09e60da11eb54e52",
+  "size_px": [
+    2048,
+    2048
+  ],
+  "changed_pixels": 1040942,
+  "changed_outside_declared_masks": 0,
+  "strong_color_pixels": 0,
+  "new_figures_or_symbols": false,
+  "kharn_face_generation_id": "3M51wq4seUCaHvj3cWj3GHZxjRA"
+}
